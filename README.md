@@ -1,4 +1,21 @@
-# MljGrandNarbonne
+# Front-End Side Web Application - Mission Locale Jeunes du Grand Narbonne
+
+## Français
+
+Développement côté front-end d'une application web qui communique avec une API Rest dévelopée sous Symfony 3.4.
+
+Gestion des utilisateurs et des tâches à effectuer.
+
+Gestion des fichiers et des notes du personnel.
+
+## English
+Development front-end of a web application that communicates with a Rest API developed under Symfony 3.4.
+
+Management of users and tasks to perform.
+
+Management of files and staff notes.
+
+----------------------------------------------------------------------------------------------------
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
