@@ -4,11 +4,13 @@ import { MaterializeModule } from 'angular2-materialize';
 
 
 import { AppComponent } from './app.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomepageComponent
   ],
   imports: [
     BrowserModule,
