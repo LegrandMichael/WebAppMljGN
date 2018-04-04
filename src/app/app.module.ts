@@ -5,12 +5,14 @@ import { MaterializeModule } from 'angular2-materialize';
 
 import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { TaskComponent } from './task/task.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomepageComponent
+    HomepageComponent,
+    TaskComponent
   ],
   imports: [
     BrowserModule,
