@@ -6,13 +6,15 @@ import { MaterializeModule } from 'angular2-materialize';
 import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { TaskComponent } from './task/task.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
-    TaskComponent
+    TaskComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
