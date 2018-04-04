@@ -1,0 +1,39 @@
+.brand-logo {
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+#logo {
+    height: 40px;
+    margin-top: 11px;
+    padding-left: 10px;
+}
+
+input[id=search] {
+    height: 45px !important;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #e3f2fd ;
+}
+
+.search-input {
+    height: 45px !important;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.search-input .material-icons {
+    top: -10px;
+    margin-left: 10px;
+}
+
+#close {
+    margin-right: -50px;
+}
+
+#btn_search {
+    margin-top: -5px;
+    margin-left: 35px;
+    border-radius: 5px;
+}
+
