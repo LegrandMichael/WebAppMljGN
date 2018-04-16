@@ -10,6 +10,7 @@ import { LoginComponent } from './login/login.component';
 import { InformationsComponent } from './informations/informations.component';
 import { DocumentsComponent } from './documents/documents.component';
 import { TrainingComponent } from './training/training.component';
+import { EventsComponent } from './events/events.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { TrainingComponent } from './training/training.component';
     LoginComponent,
     InformationsComponent,
     DocumentsComponent,
-    TrainingComponent
+    TrainingComponent,
+    EventsComponent
   ],
   imports: [
     BrowserModule,
