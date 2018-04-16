@@ -11,6 +11,7 @@ import { InformationsComponent } from './informations/informations.component';
 import { DocumentsComponent } from './documents/documents.component';
 import { TrainingComponent } from './training/training.component';
 import { EventsComponent } from './events/events.component';
+import { AccountComponent } from './account/account.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { EventsComponent } from './events/events.component';
     InformationsComponent,
     DocumentsComponent,
     TrainingComponent,
-    EventsComponent
+    EventsComponent,
+    AccountComponent
   ],
   imports: [
     BrowserModule,
