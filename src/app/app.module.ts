@@ -12,6 +12,7 @@ import { DocumentsComponent } from './documents/documents.component';
 import { TrainingComponent } from './training/training.component';
 import { EventsComponent } from './events/events.component';
 import { AccountComponent } from './account/account.component';
+import { AuthenticationComponent } from './authentication/authentication.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { AccountComponent } from './account/account.component';
     DocumentsComponent,
     TrainingComponent,
     EventsComponent,
-    AccountComponent
+    AccountComponent,
+    AuthenticationComponent
   ],
   imports: [
     BrowserModule,
