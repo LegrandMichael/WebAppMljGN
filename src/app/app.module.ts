@@ -9,6 +9,7 @@ import { TaskComponent } from './task/task.component';
 import { LoginComponent } from './login/login.component';
 import { InformationsComponent } from './informations/informations.component';
 import { DocumentsComponent } from './documents/documents.component';
+import { TrainingComponent } from './training/training.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { DocumentsComponent } from './documents/documents.component';
     TaskComponent,
     LoginComponent,
     InformationsComponent,
-    DocumentsComponent
+    DocumentsComponent,
+    TrainingComponent
   ],
   imports: [
     BrowserModule,
