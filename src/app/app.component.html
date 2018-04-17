@@ -27,9 +27,8 @@
                     <li>
                         <a href="#">Informations</a>
                     </li>
-                    <li>
-                        <a href="#">Se connecter</a>
-                    </li>
+                    <li *ngIf="!hasAuthToken()"><a [routerLink]="['login']">Se connecter</a></li>
+                    <li *ngIf="hasAuthToken()"><a (click)="logout()" href="#"></a></li>
                     <li>
                         <a href="#"><i class="right medium material-icons">view_module</i></a>
                     </li>
@@ -38,3 +37,5 @@
         </div>
     </div>
 </nav>
+
+<router-outlet></router-outlet>
