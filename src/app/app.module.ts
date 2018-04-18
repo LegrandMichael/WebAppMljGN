@@ -7,6 +7,7 @@ import { Http, HttpModule, RequestOptions } from '@angular/http';
 import { AuthHttp, AuthConfig } from 'angular2-jwt';
 
 import { AppComponent } from './app.component';
+import { AuthGuard } from './_guard/index';
 import { Routing } from './app.routing';
 
 import { AccountComponent } from './account/account.component';
@@ -51,6 +52,7 @@ export function authHttpServiceFactory(http: Http, options: RequestOptions) {
             useFactory: authHttpServiceFactory,
             deps: [Http, RequestOptions]
         },
+        AuthGuard,
         AuthenticationService
     ],
     bootstrap: [AppComponent]

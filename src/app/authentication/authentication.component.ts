@@ -11,7 +11,8 @@ import { AuthenticationService } from './authentication.service';
 })
 export class AuthenticationComponent {
     loginForm: FormGroup;
-    error: string;
+    // tslint:disable-next-line:no-inferrable-types
+    error: string = '';
 
     constructor(
         private formBuilder: FormBuilder,
@@ -30,7 +31,7 @@ export class AuthenticationComponent {
             .subscribe(
                 data => {
                     localStorage.setItem('id_token', data.token);
-                    this.router.navigate(['post']);
+                    this.router.navigate(['']);
                 },
                 error => this.error = error.message
             );

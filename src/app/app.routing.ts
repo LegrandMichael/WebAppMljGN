@@ -2,6 +2,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HomepageComponent } from './homepage/homepage.component';
 import { AuthenticationComponent } from './authentication/authentication.component';
+import { AuthGuard } from './_guard/index';
 
 const APP_ROUTES: Routes = [
     {
