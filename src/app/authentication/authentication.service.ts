@@ -14,7 +14,7 @@ export class AuthenticationService {
             const body = new URLSearchParams();
             body.append('username', user.username);
             body.append('password', user.password);
-        const headers = new Headers({'Content-Type': 'application/x-www-form-urlencoded'});
+        const headers = new Headers({ 'Content-Type': 'application/x-www-form-urlencoded'});
             const options = new RequestOptions({ headers: headers});
 
         return this.http

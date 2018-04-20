@@ -11,8 +11,7 @@ import { AuthenticationService } from './authentication.service';
 })
 export class AuthenticationComponent {
     loginForm: FormGroup;
-    // tslint:disable-next-line:no-inferrable-types
-    error: string = '';
+    error: string;
 
     constructor(
         private formBuilder: FormBuilder,
