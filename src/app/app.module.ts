@@ -18,6 +18,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { EventsComponent } from './events/events.component';
 import { InformationsComponent } from './informations/informations.component';
 import { TaskComponent } from './task/task.component';
+import { TaskRepository } from './task/task-repository.service';
 import { TrainingComponent } from './training/training.component';
 
 export function authHttpServiceFactory(http: Http, options: RequestOptions) {
@@ -53,7 +54,8 @@ export function authHttpServiceFactory(http: Http, options: RequestOptions) {
             deps: [Http, RequestOptions]
         },
         AuthGuard,
-        AuthenticationService
+        AuthenticationService,
+        TaskRepository
     ],
     bootstrap: [AppComponent]
 })
